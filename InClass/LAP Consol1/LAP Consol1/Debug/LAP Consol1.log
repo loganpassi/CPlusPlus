@@ -1,0 +1,4 @@
+﻿  TempConv.cpp
+c:\users\cod_user\desktop\lap consol1\lap consol1\tempconv.cpp(13): warning C4305: 'initializing': truncation from 'double' to 'float'
+  LAP Consol1.vcxproj -> C:\Users\cod_user\Desktop\LAP Consol1\Debug\LAP Consol1.exe
+  LAP Consol1.vcxproj -> C:\Users\cod_user\Desktop\LAP Consol1\Debug\LAP Consol1.pdb (Full PDB)
