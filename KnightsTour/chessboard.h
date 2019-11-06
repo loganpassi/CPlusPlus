@@ -34,10 +34,9 @@ public:
 	//array to hold a-h
 	char alphaArr[SIZE] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H' };
 
-	//arrays to hold various amount of moves for each square
-	int edgeArr[SIZE] = { 2, 3, 4, 4, 4, 4, 3, 2 };
-	int scndEdgeArr[SIZE] = { 3, 4, 6, 6, 6, 6, 4, 3 };
-	int midArr[SIZE] = { 4 , 6, 8, 8, 8, 8, 6, 4 };
+
+	//function to determine the number of moves each square has
+	int calcMoves(square s);
 
 private:
 

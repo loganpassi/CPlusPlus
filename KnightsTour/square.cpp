@@ -6,7 +6,6 @@ Square.cpp
 
 #include "square.h"
 
-
 //default constructor
 square::square() {
 	int numMoves = 0;
@@ -15,13 +14,14 @@ square::square() {
 };
 
 //parameterized constructor
-square::square(int y, int x) {
+square::square(int x, int y) {
 	int numMoves = 0;
 	int xPos = x;
 	int yPos = y;
 }
 
-void square::setCoords(int y, int x) {
-	int xPos = x;
-	int yPos = y;
+//method to set the coordinates of the square
+void square::setCoords(int x, int y) {
+	xPos = x;
+	yPos = y;
 };
