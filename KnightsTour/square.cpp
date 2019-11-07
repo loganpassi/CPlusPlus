@@ -8,16 +8,20 @@ Square.cpp
 
 //default constructor
 square::square() {
-	int numMoves = 0;
-	int xPos = 0;
-	int yPos = 0;
+	numMoves = 0;
+	xPos = 0;
+	yPos = 0;
+	order = 0;
+	touch = false;
 };
 
 //parameterized constructor
 square::square(int x, int y) {
-	int numMoves = 0;
-	int xPos = x;
-	int yPos = y;
+	numMoves = 0;
+	xPos = x;
+	yPos = y;
+	order = 0;
+	touch = false;
 }
 
 //method to set the coordinates of the square

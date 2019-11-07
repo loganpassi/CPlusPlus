@@ -120,7 +120,7 @@ void chessboard::displayBoard() {
 	cout << endl;
 
 	for (xPos; xPos < SIZE; ++xPos) {
-		cout << setw(3) << numArr[xPos] << " |";
+		cout << setw(3) << xPos + 1 << " |";
 		for (yPos; yPos < SIZE; ++yPos) {
 
 			switch (board[yPos][xPos].getTouch()) {

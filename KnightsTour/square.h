@@ -81,10 +81,10 @@ public:
 
 	//private data members
  private:
-	int numMoves = 0;
-	int xPos = 0;
-	int yPos = 0;
-	bool touch = false;
-	int order = 0;
+	 int numMoves;
+	 int xPos;
+	 int yPos;
+	 bool touch;
+	 int order;
 
 };
