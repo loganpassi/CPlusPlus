@@ -28,9 +28,6 @@ public:
 	//funtion to decide where to move
 	int decidePosition();
 
-	//array to hold 1-8
-	int numArr[SIZE] = { 1, 2, 3, 4, 5, 6, 7, 8 };
-
 	//array to hold a-h
 	char alphaArr[SIZE] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H' };
 

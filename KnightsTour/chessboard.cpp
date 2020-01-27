@@ -120,16 +120,16 @@ void chessboard::displayBoard() {
 	cout << endl;
 
 	for (xPos; xPos < SIZE; ++xPos) {
-		cout << setw(3) << numArr[xPos] << " |";
+		cout << setw(3) << xPos + 1 << " |";
 		for (yPos; yPos < SIZE; ++yPos) {
 
-			switch (board[xPos][yPos].getTouch()) {
+			switch (board[yPos][xPos].getTouch()) {
 
 			case false: cout << setw(3) << "X"; //display an X if the knight has not been to that position
 				break;
 
 			default: 
-				cout << setw(3) << board[xPos][yPos].getOrder(); //display the value at that position
+				cout << setw(3) << board[yPos][xPos].getOrder(); //display the value at that position
 			}
 		}
 		yPos = 0;

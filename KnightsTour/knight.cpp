@@ -18,6 +18,9 @@ knight::knight() {
 
 	//generate random y-position
 	y = lowest + (rand() % (range + 1));
+
+	//initialize the count value to zero
+	count = 0;
 };
 
 
